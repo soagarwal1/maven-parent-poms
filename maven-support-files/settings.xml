@@ -44,7 +44,11 @@
         <repository>
           <id>pentaho-public</id>
           <name>Pentaho Public</name>
-          <url>https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/</url>
+          <!-- old repository url -->
+          <!-- <url>https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/</url> -->
+          <!-- new repository url for scheduler plugin feature -->
+          <!-- replace current ~/.m2/settings.xml OR run command for example $> mvn clean install -s <THIS_DOWNLOADED_FILE> -->
+          <url>https://repo.orl.eng.hitachivantara.com/artifactory/pntprv-scheduler/</url>
           <releases>
             <enabled>true</enabled>
             <updatePolicy>always</updatePolicy>
@@ -59,7 +63,11 @@
         <pluginRepository>
           <id>pentaho-public</id>
           <name>Pentaho Public</name>
-          <url>https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/</url>
+          <!-- old repository url -->
+          <!-- <url>https://repo.orl.eng.hitachivantara.com/artifactory/pnt-mvn/</url> -->
+          <!-- new repository url for scheduler plugin feature -->
+          <!-- replace current ~/.m2/settings.xml OR run command for example $> mvn clean install -s <THIS_DOWNLOADED_FILE> -->
+          <url>https://repo.orl.eng.hitachivantara.com/artifactory/pntprv-scheduler/</url>
           <releases>
             <enabled>true</enabled>
             <updatePolicy>always</updatePolicy>
